@@ -1,0 +1,255 @@
+body {
+    background-image:URL(../images/felt_001.jpg);
+    color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+    min-width: 350px;
+}
+
+a, 
+a:visited,
+a:link,
+a:active {
+    text-decoration: inherit;
+    color: inherit;
+}
+a:hover {
+    color: #116c11;
+}
+
+span {
+    color: #fff;
+}
+
+p, h1, h2 {
+    text-shadow: 0 0 10px #000;
+}
+
+h3 {
+    font-size: 30pt;
+    color: #9a1515;
+}
+
+h4 {
+    font-size: 20pt;
+    color: #1616ac;
+}
+
+/*Media width properties-------*/
+
+@media screen and (max-width: 670px){
+    #video {
+        display: none !important;
+    }
+    
+    .footer {
+        background-image: url(../images/woodMahogany.png);
+        background-size: cover;
+    }
+    
+    h3 {
+        font-size: 20pt;
+    }
+
+    h4 {
+        font-size: 15pt;
+    }
+    
+    #table-rate, #drinks {
+        margin-right: 50px !important;
+        margin-left: 50px;
+        text-align: center !important;
+    }
+    
+    .spc-content li {
+        font-size: 14pt !important;
+        margin-left: -40px;
+    }
+    
+}
+
+/*Classes ---------------------*/
+
+.navbar {  
+    background-image: url(../images/woodMahogany.png);
+    min-width: 350px;    
+    box-shadow: 0 0 20px #000;
+}
+
+.nav-bar {
+    background-image: url(../images/woodMahogany.png);
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown-menu {
+    background-image: url(../images/woodMahogany.png);
+    border: 2px solid rgb(54, 39, 5);
+}
+
+.navbar-toggle {
+    margin-top: 22px;
+}
+
+.container {
+    width: auto;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.carousel {
+    width: auto;
+    max-width: 1800px;  
+    margin-left: auto;
+    margin-right: auto;    
+    overflow: hidden;
+}
+
+.rslides {    
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+#carousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#video {
+    box-shadow: 0 0 20px #000;
+}
+
+.specials {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    max-width: 1025px;
+    min-height: 875px;
+    background: url("../images/weeSpeBkgd.png") no-repeat center; 
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #000;
+}
+
+.spc-content {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: #222;
+    font-family: "Cooper Black", calibri;
+    
+}
+
+.spc-content span {
+    color: #169500;
+}
+
+.spc-content li {
+    font-size: 18pt;
+    
+}
+
+#drinks {
+    float: right;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.footer{
+	display: table;
+    width: 100%;
+    color: #67DD72; 
+    font-family: "arial narrow";
+	z-index: -1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    background-image: url(../images/woodMahogany.png);
+    background-size: cover;
+}
+
+
+.button{
+	background-color: #faca57;
+	color: #7b3c0a;
+	border: none;
+	font-size: 12pt;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-top: -20px;
+	padding: 10px;
+    margin-bottom: 25px; 
+	font-size: 13pt;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.button:hover{
+	background-color: #FCDB8B;
+	color: #B36D36;
+}
+
+.address {
+    float: left;  
+    text-align: left;
+    width: 50%;
+    min-width: 250px;
+    padding: 10px;
+    height: 90px;
+    display: table-column;
+    font-size: 14px;
+    font-family: "arial narrow";
+}
+
+.midDiams {
+	margin: 0 auto;
+	width: 50%;
+    
+}
+
+#diam {
+    width:5%; 
+    max-width: 100px;
+    min-width: 60px;
+	margin: auto;
+	padding-right: 5px;
+    
+}
+
+.copyright {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 50%;
+    min-width: 260px;
+    font-size: 12px; 
+    padding: 10px;
+    height: 30px;
+    display: table-column;
+    font-family: "arial narrow"; 
+    color: #fcac50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

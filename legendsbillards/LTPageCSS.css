@@ -1,0 +1,44 @@
+body { background-image: url("Images/felt_001.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.navbar {  
+    background-image: url("Images/bkNav.jpg");
+    border: 2px solid rgb(54, 39, 5);
+}
+
+.nav-bar {
+    background-image: url("Images/woodMahogany.png");
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.footer{
+	background-image: url("Images/woodMahogany.png");
+}
+
+.LDiv , .TDiv { margin: 0 auto;
+				text-align: center;
+				z-index: 1;
+				position: relative;
+}
+
+.LeagueText { z-index: 2;
+		font-size: 60px;
+		position: absolute;
+		top: 125px;
+		left: 400px;
+		font-family: Gentium Basic;
+}
+
+.TournyText { z-index: 2;
+		font-size: 60px;
+		position: absolute;
+		top: 775px;
+		left: 650px;
+		font-family: Gentium Basic;
+}
+

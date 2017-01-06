@@ -1,0 +1,64 @@
+body 	{
+	background-image: url("images/felt_001.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+    padding: 0;
+}
+
+.navbar {  
+    background-image: url("images/bkNav.jpg");
+    border: 2px solid rgb(54, 39, 5);
+}
+
+.nav-bar{
+    background-image: url("images/woodMahogany.png");
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer	{
+	background-image: url("images/woodMahogany.png");
+}
+
+
+
+
+
+.guest	{
+	margin: auto;
+	text-align: center;
+}
+
+.resp	{
+	position: absolute;
+	top: 750px;
+	width: 85%;
+}
+
+
+
+h3	{
+	
+	position: absolute;
+	top: 250px; 
+	width: 100%;
+}
+
+input	{
+	padding:5px;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #4caf50;
+	border-radius:5px;
+    color: #ffffff;
+    padding: 8px 32px;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+
+
